@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [absoluteUrl("/opengraph-image")],
+    images: [absoluteUrl("/twitter-image")],
   },
   icons: {
     icon: [{ url: "/favicon.ico" }],
