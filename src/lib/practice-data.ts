@@ -20,6 +20,9 @@ export type LinuxPracticeGroup = {
   shortLabel: string;
   description: string;
   summary: string;
+  seoDescription: string;
+  seoKeywords: string[];
+  learningFocus: string;
   accent: string;
   initialCwd: string;
   welcomeLines: string[];
@@ -80,6 +83,16 @@ export const linuxPracticeGroups: LinuxPracticeGroup[] = [
     shortLabel: "Navigation",
     description: "Move through directories and inspect where you are.",
     summary: "Commands that keep you oriented in shell sessions.",
+    seoDescription:
+      "Practice Linux navigation commands in a browser terminal simulator with guided lessons for pwd, ls, and cd workflows.",
+    seoKeywords: [
+      "linux navigation practice",
+      "bash navigation commands",
+      "pwd ls cd tutorial",
+      "linux terminal navigation exercises",
+    ],
+    learningFocus:
+      "Build confidence moving through directories, checking your location, and reading folder contents before making changes.",
     accent: "from-amber-300 via-orange-300 to-rose-300",
     initialCwd: "/home/learner/projects/pro-bash",
     welcomeLines: [
@@ -121,6 +134,16 @@ export const linuxPracticeGroups: LinuxPracticeGroup[] = [
     shortLabel: "Files",
     description: "Create, copy, rename, and remove files from the shell.",
     summary: "Train the core file management commands you use every day.",
+    seoDescription:
+      "Learn Linux file management with hands-on browser exercises for mkdir, touch, cp, mv, and rm commands.",
+    seoKeywords: [
+      "linux file management practice",
+      "mkdir touch cp mv rm exercises",
+      "bash file commands tutorial",
+      "linux command line file operations",
+    ],
+    learningFocus:
+      "Practice the everyday file commands used to create, organize, duplicate, rename, and remove files from the shell.",
     accent: "from-emerald-300 via-lime-300 to-cyan-300",
     initialCwd: "/home/learner/tmp",
     welcomeLines: [
@@ -178,6 +201,16 @@ export const linuxPracticeGroups: LinuxPracticeGroup[] = [
     shortLabel: "Search",
     description: "Find the right file or line quickly when things get noisy.",
     summary: "Search through logs and folders the way you would on a real machine.",
+    seoDescription:
+      "Practice grep and find in a Linux browser terminal so you can search logs, folders, and noisy project trees faster.",
+    seoKeywords: [
+      "grep practice",
+      "find command tutorial",
+      "linux search exercises",
+      "bash log searching practice",
+    ],
+    learningFocus:
+      "Learn how to locate files and error lines quickly with common Linux search tools used in debugging and operations work.",
     accent: "from-cyan-300 via-sky-300 to-blue-300",
     initialCwd: "/home/learner",
     welcomeLines: [
@@ -211,6 +244,16 @@ export const linuxPracticeGroups: LinuxPracticeGroup[] = [
     shortLabel: "Permissions",
     description: "Handle executable permissions and basic file access changes.",
     summary: "Get comfortable making scripts runnable from the shell.",
+    seoDescription:
+      "Train Linux permissions basics with a guided chmod exercise that teaches how to make shell scripts executable.",
+    seoKeywords: [
+      "linux permissions practice",
+      "chmod tutorial",
+      "make script executable linux",
+      "bash permissions exercise",
+    ],
+    learningFocus:
+      "Understand the most common shell permission workflow so you can inspect and enable script execution confidently.",
     accent: "from-fuchsia-300 via-pink-300 to-rose-300",
     initialCwd: "/home/learner/scripts",
     welcomeLines: [
@@ -236,6 +279,16 @@ export const linuxPracticeGroups: LinuxPracticeGroup[] = [
     shortLabel: "Processes",
     description: "Inspect running processes the way you would during debugging.",
     summary: "Practice quick process inspection before you need it under pressure.",
+    seoDescription:
+      "Practice Linux process inspection with guided ps aux lessons inside a browser terminal playground.",
+    seoKeywords: [
+      "linux process commands",
+      "ps aux practice",
+      "bash process inspection",
+      "linux debugging terminal exercises",
+    ],
+    learningFocus:
+      "Train process-inspection habits that help you debug services, spot resource issues, and understand what is running.",
     accent: "from-violet-300 via-indigo-300 to-blue-300",
     initialCwd: "/home/learner",
     welcomeLines: [
